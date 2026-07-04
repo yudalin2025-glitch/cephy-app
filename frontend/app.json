@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Cephy",
+    "slug": "cephy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#1A1A2E",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.cephy.app",
+      "usesAppleSignIn": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1A1A2E"
+      },
+      "package": "com.cephy.app"
+    },
+    "plugins": [
+      "expo-apple-authentication"
+    ]
+  }
+}
